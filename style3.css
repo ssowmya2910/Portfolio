@@ -1,0 +1,194 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.background{
+    height:100vh;
+    width:100%;
+    background-image: url(../portfolio/po3232.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top:45px;
+    padding-left:5%;
+    padding-right:5%;
+}
+.title{
+    color:rgb(174, 101, 13);
+    font-size: 35px;
+    letter-spacing:1px;
+    cursor:pointer;
+    
+}
+span{
+    color:rgb(82, 46, 3);
+}
+nav ul li{
+    list-style-type:none;
+    display:inline-block;
+    padding:10px 10px;
+   
+
+}
+nav ul li a{
+    color:rgb(240, 197, 164);
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:rgb(124, 64, 5);
+    transition:0.5s;
+}
+.button{
+    background-color:rgb(210, 185, 154);
+    color: brown;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:10px 10px;
+    border-radius: 20px;
+    transition:transform 0.5s;
+    
+}
+.button:hover{
+    transform:scale(1.2);
+
+}
+.intro{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translateY(-50%);
+    
+
+}
+h1{
+    color:rgb(90, 58, 2);
+    margin:25px 0px 20px;
+    font-size:75px;
+    text-align: center;
+}
+h3{
+    color:rgb(144, 81, 4);
+    font-size:25px;
+    margin-bottom: 50px;
+    
+}
+h4{
+    color:rgb(181, 103, 8);
+    letter-spacing:2px;
+    
+}
+.about{
+    width:100%;
+    padding:100px 0px;
+    background-color: rgb(128, 69, 3);
+
+
+} 
+.about img{
+    height:auto;
+    width:430px;
+
+}
+.about-text{
+    width:550px;
+}
+.me{
+    width:1130px;
+    max-width:95%;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color:beige;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-style: oblique;
+}
+.about-text h5{
+    color:beige;
+    letter-spacing:3px;
+}
+.about-text p{
+    letter-spacing: 2px;
+    color:bisque;
+    margin-top: 25px;
+    margin-bottom:30px;
+}
+button{
+    background-color:rgb(107, 57, 4);
+    border:2px solid transparent;
+    font-weight: bold;
+    text-decoration: none;
+    padding:10px 40px;
+    border-radius: 30px;
+    transition: 0.5s;
+    color:rgb(252, 134, 0);
+    margin-top: 30px;
+    
+}
+
+button:hover{
+    background-color: transparent;
+    border:2px solid rgb(239, 237, 235);
+    cursor: pointer;
+}
+
+.box{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    
+}
+.divi{
+    height:345px;
+    width:335px;
+    padding:20px 35px;
+    border-radius: 25px;
+    margin:15px;
+    position:relative;
+    overflow:hidden;
+    text-align:left;
+    background-color:rgb(255, 165, 68);
+    font-size: 25px;
+    color:rgb(69, 42, 2);
+    font-style: oblique;
+    
+
+}
+.skills {
+    background-color:rgb(128, 69, 3) ;
+
+}
+
+.icons{
+    display:flex;
+    color:beige;
+    padding:40px 50px;
+    font-size: 40px;
+    justify-content: right;
+    
+}
+.lin{
+    padding:10px 10px;
+}
+.gm{
+    padding:10px 10px;
+}
+.wa{
+    padding:10px 10px;
+}
+.git{
+    padding:10px 10px;
+}
